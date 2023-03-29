@@ -1,6 +1,3 @@
-n = gets.to_i
-w = gets.split
-is_yes = w.filter do |x|
-  ['and', 'not', 'that', 'the', 'you'].include?(x)
-end.size >= 1
+gets.to_i
+is_yes = (gets.split & %w(and not that the you)).size > 0
 puts is_yes ? "Yes" : "No"
