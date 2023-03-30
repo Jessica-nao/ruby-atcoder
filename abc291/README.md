@@ -29,7 +29,8 @@
 - [Queue](https://rurema.clear-code.com/2.7.0/class/Thread=3a=3aQueue.html) を使う
 - TSortがあるから使ってみたけど、TLEなってダメだったorz
   - TODO: この実装での計算量調べてみる（そもそも実装が適していない可能性ありそう）
-
+- `q.size != 1` だったらNGの場所とか、 `while` の前では不要のこととか、考察もう少し丁寧にしたい気持ち！
+- `arr.join(' ')` は、`arr * ' '` のほうが早いね
 ### F
 
 -
