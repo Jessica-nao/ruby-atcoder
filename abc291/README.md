@@ -26,7 +26,9 @@
 
 ### E
 
--
+- [Queue](https://rurema.clear-code.com/2.7.0/class/Thread=3a=3aQueue.html) を使う
+- TSortがあるから使ってみたけど、TLEなってダメだったorz
+  - TODO: この実装での計算量調べてみる（そもそも実装が適していない可能性ありそう）
 
 ### F
 
