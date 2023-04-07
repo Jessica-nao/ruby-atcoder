@@ -24,7 +24,7 @@
 - 最後にmod取るの忘れてWA貰ったの痛すぎ！
   - こういうのがあるから、先にModIntで定義したいよね〜泣
 
-### E
+### *E
 
 - [Queue](https://rurema.clear-code.com/2.7.0/class/Thread=3a=3aQueue.html) を使う
 - TSortがあるから使ってみたけど、TLEなってダメだったorz
