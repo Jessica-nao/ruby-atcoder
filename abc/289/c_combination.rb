@@ -27,3 +27,5 @@ x = 0
 end
 x
 full_bit = ('1' * 5).to_i(2)
+
+# todo
