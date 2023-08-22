@@ -40,7 +40,7 @@ loop do
   @will_view_rows.each do |i|
     @will_view_rows.delete(i)
     next if @remain_row_color_count[i] != 1
-    next if @rows[i].find(&:positive?) == 1
+    next if remain_line_set.size == 1
 
     delete_rows << i
   end
@@ -48,7 +48,7 @@ loop do
   @will_view_lines.each do |j|
     @will_view_lines.delete(j)
     next if @remain_line_color_count[j] != 1
-    next if @lines[j].find(&:positive?) == 1
+    next if remain_row_set.size == 1
 
     delete_lines << j
   end
